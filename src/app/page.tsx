@@ -1,8 +1,9 @@
+import NavbarDekstop from './components/NavbarDekstop';
 
 export default function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <>
+      <NavbarDekstop/>
+    </>
   );
 }
