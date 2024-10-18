@@ -16,7 +16,10 @@ const config: Config = {
         'dark-red': '#160101'
       },
       fontSize: {
-        base: '14px',
+        base: '16px',
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
       }
     },
   },
