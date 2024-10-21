@@ -2,7 +2,7 @@ import logo from 'assets/logo.webp';
 
 export default function NavbarDesktop() {
     return(
-        <nav className='flex bg-primary-red justify-between items-center px-6 py-2'>
+        <nav className='sticky top-0 z-[100] flex bg-primary-red justify-between items-center px-6 py-2'>
             <img src={logo.src} alt="logo" className="w-80" />
             <ul className='flex text-white gap-6'>
                 <li><a href="/">Home</a></li>
