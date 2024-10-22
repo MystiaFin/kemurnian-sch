@@ -13,6 +13,7 @@ export default function NavbarDesktop() {
                 <li><a href="/news">News</a></li>
                 <li><a href="/contact">Contact</a></li>
                 <li><a href="/login" className='bg-dark-red px-4 py-2 rounded-full transition-colors duration-300 hover:bg-red-800 ease'>Login LMS</a></li>
+                <li>search</li>
             </ul>
         </nav>
     );
