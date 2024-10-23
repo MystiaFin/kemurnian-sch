@@ -1,20 +1,15 @@
-// admin/layout.tsx
-import Sidebar from './components/Sidebar'; // Adjust the path if necessary
-import { ReactNode } from 'react';
+// components/layout/Layout.tsx
+import Sidebar from './components/Sidebar';
 
-interface LayoutProps {
-  children: ReactNode;
-}
-
-const AdminLayout = ({ children }: LayoutProps) => {
+const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div style={{ display: 'flex' }}>
+    <div className="flex">
       <Sidebar />
-      <main style={{ flex: 1, padding: '20px' }}>
+      <main className="flex-grow p-4">
         {children}
       </main>
     </div>
   );
 };
 
-export default AdminLayout;
+export default Layout;
