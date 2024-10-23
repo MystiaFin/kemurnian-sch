@@ -1,5 +1,10 @@
-// components/layout/Layout.tsx
 import Sidebar from './components/Sidebar';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Kemurnian Admin",
+};
+
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (

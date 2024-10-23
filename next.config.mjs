@@ -11,6 +11,7 @@ const nextConfig = {
     config.resolve.alias = {
       ...config.resolve.alias,
       components: resolve(__dirname, 'src/components'),
+      adminComponents: resolve(__dirname, 'src/app/admin/components'),
       assets: resolve(__dirname, 'src/assets'),
     };
     return config;
