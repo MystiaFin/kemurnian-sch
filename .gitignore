@@ -36,3 +36,6 @@ yarn-error.log*
 next-env.d.ts
 
 .env
+adminConfig.ts
+createAdmin.ts
+kemurnian-sch-firebase-adminsdk-2m19k-ad0fd63ab7.json
