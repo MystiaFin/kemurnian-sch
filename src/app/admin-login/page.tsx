@@ -12,13 +12,36 @@ export default function AdminAuth() {
     e.preventDefault();
     try {
       await signInWithEmailAndPassword(auth, email, password);
-    } catch (error) {
-      setError("Failed log in. Wrong email or Password")
+      // redirect to admin page
+      window.location.href = "/admin";
+    } catch (err: any) {
+      setError(`Failed to log in: ${err.message}`);
     }
-  }
-    return(
-      <div>
+  };
 
-      </div>
-    )
+  return (
+    <div className="flex flex-col items-center justify-center h-screen">
+      <h1>Admin Login</h1>
+      <form onSubmit={handleLogin} className="flex flex-col gap-4">
+        <input
+          type="email"
+          placeholder="Email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          className="p-2 border border-gray-300 rounded"
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          className="p-2 border border-gray-300 rounded"
+        />
+        {error && <p className="text-red-500">{error}</p>}
+        <button type="submit" className="p-2 bg-blue-500 text-white rounded">
+          Login
+        </button>
+      </form>
+    </div>
+  );
 }
