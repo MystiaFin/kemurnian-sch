@@ -12,14 +12,9 @@
     "@radix-ui/react-slot": "^1.1.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-<<<<<<< HEAD
-    "dotenv": "^16.4.7",
-    "firebase": "^11.0.2",
-=======
     "dotenv": "^16.4.5",
-    "firebase": "^11.0.1",
+    "firebase": "^11.1.0",
     "firebase-admin": "^12.7.0",
->>>>>>> f61eca8651540081d47e047888e9c1dbf92e4a38
     "lucide-react": "^0.453.0",
     "next": "14.2.15",
     "react": "^18",
