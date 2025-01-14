@@ -20,6 +20,7 @@
     "paths": {
       "@/*": ["./src/*"],
       "components/*": ["./src/components/*"],
+      "sekolah/*": ["./src/app/sekolah/*"],
       "adminComponents/*": ["./src/app/admin/components*"],
       "assets/*": ["./src/assets/*"]
     }
@@ -29,8 +30,6 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/app/admin/createAdmin.j",
-    "src/app/admin/adminConfig.js"
   ],
   "exclude": ["node_modules"]
 }

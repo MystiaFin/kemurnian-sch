@@ -15,7 +15,7 @@ const config: Config = {
   			'primary-red': '#3F0404',
   			'secondary-red': '#700000',
   			'dark-red': '#160101',
-			'semi-dark-red': '#2e0202',
+        'semi-dark-red': '#2e0202',
   			card: {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'
