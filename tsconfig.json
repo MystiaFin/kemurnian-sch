@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -18,18 +22,31 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"],
-      "components/*": ["./src/components/*"],
-      "sekolah/*": ["./src/app/sekolah/*"],
-      "adminComponents/*": ["./src/app/admin/components*"],
-      "assets/*": ["./src/assets/*"]
-    }
+      "@/*": [
+        "./src/*"
+      ],
+      "components/*": [
+        "./src/components/*"
+      ],
+      "sekolah/*": [
+        "./src/app/sekolah/*"
+      ],
+      "adminComponents/*": [
+        "./src/app/admin/components*"
+      ],
+      "assets/*": [
+        "./src/assets/*"
+      ]
+    },
+    "target": "ES2017"
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts",
+    ".next/types/**/*.ts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }

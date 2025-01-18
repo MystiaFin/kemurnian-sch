@@ -3,7 +3,7 @@ export default function SubNavbar() {
     <nav>
       <ul className="p-2 flex gap-4">
         <li>
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
           <a href="/sekolah/kemurnian-1">Kemurnian</a>
