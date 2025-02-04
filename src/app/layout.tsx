@@ -41,7 +41,7 @@ export default function RootLayout({
           </div>
         </div>
         <SubNavbar />
-        <div className="m-2">{children}</div>
+        <div className="">{children}</div>
       </body>
     </html>
   );
